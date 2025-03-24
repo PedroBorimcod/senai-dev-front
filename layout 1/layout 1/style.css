@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 *{
-    padding: 0%;
-    margin: 0px;
-    box-sizing: border-box;
+padding: 0%;
+margin: 0px;
+box-sizing: border-box;
 }
 .titulo-1{
 color: black;
 font-family: Bebas Neue;
-text-align: center;
 font-size: 50px;
 }
 .imagem{
-width: 1680px;
+width: 100vw;
 height: 427px;
 top: 174px;
 left: 120px;
@@ -20,17 +20,35 @@ left: 120px;
 border: none;
 max-width: 100%;
 height: auto;
-
-
-
+border: none;
+padding: 10px 20px;
+background: none;
+cursor: pointer;
 }
 .cabecalho{
-   width: 1920vh;
-   height: 80px;
-   background-color: #3750B3;
+width: 100vw;
+height: 71px;
+background-color: #3750B3;
+display: flex;
 
 }
 .paragrafo{
-    font-size: 20px;
+font-size: 20px;
 }
+.left{
+    width: 34px;
+    right: 50vh;
+    padding-top: 20px;
 
+}
+.right{
+    width: 1280px;
+    position: fixed;
+    top: 20px;
+    left: 1240px;
+    color: white;
+}
+.btn{
+    color: white;
+    font-family: Montserrat;
+}
