@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.cabecalho{
+    width:  100vw ;
+    height: 71px;
+    background-color: rgb(55, 80, 179);
+    display: flex;
+    justify-content: space-between; /*coloca os elemntos para os cantos*/
+    align-items: center;
+}
+.cabecalho p{   /*serve para colorir alugum elemento especifico*/
+    color: white;
+    margin-right: 20px;  /*coloca uma margem na direita;*/
+
+
+}
+.left{
+    margin-left: 80px;  /*coloca uma margem na esquerda*/
+}
+
+.right{
+    display: flex;
+    margin-right: 60px;
+}
