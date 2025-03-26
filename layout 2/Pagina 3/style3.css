@@ -8,7 +8,7 @@ box-sizing: border-box;
 .titulo-1{
 color: black;
 font-family: Bebas Neue;
-font-size: 50px;
+font-size: 64px;
 }
 .imagem{
 width: 793px;
@@ -20,7 +20,7 @@ width: 793px;
 height: 779px;
 top: 174px;
 left: 120px;
-margin-top: 3%;
+margin-top: 7%;
 
 
 }
@@ -38,6 +38,7 @@ width: 100vw;
 height: 71px;
 background-color: #3750B3;
 display: flex;
+position: fixed;
 
 }
 .paragrafo{
@@ -59,4 +60,15 @@ font-size: 20px;
 .btn{
     color: white;
     font-family: Montserrat;
+}
+.titulo-1{
+    position: absolute;
+    left: 100vh;
+    top: 14vw;
+}
+.titulo-2{
+    position: relative;
+    left: 100vh;
+    top: -30vw;
+    font-size: 32px;
 }
